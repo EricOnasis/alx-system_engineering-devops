@@ -3,3 +3,4 @@
 2. There is no place like home Changes the working directory to the users home directory
 3. The long format Displays current directory contents in long format
 4. Hidden files Displays all content in the current directory
+5. I love numbers  Displays directory contents in long format with user and group IDs in numerics
