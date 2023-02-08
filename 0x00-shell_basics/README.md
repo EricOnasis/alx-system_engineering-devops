@@ -14,3 +14,4 @@
 We are symbols, and inhabit symbols Creates Symbolic Link
 14. Copy HTML files Copies HTML Files
 15. Let’s move Moves files beginning with uppercase letters
+16. Clean Emacs Deletes Emacs files
