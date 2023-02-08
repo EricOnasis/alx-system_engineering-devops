@@ -7,3 +7,4 @@
 6. Welcome Creates a directory in tmp
 7. Betty in my first directory Moves the Betty file
 8. Bye bye Betty Deletes the file betty
+9. Bye bye My first directory Removes my_first_directory
