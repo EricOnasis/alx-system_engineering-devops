@@ -10,3 +10,4 @@
 9. Bye bye My first directory Removes my_first_directory
 10. Back to the future Changes working directory to the previous one
 11. Lists Lists Directories in current,working and parent working directory
+12. File type Prints File Type
