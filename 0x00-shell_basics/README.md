@@ -4,3 +4,4 @@
 3. The long format Displays current directory contents in long format
 4. Hidden files Displays all content in the current directory
 5. I love numbers  Displays directory contents in long format with user and group IDs in numerics
+6. Welcome Creates a directory in tmp
