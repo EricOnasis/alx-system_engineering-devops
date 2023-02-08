@@ -16,3 +16,4 @@
 15. Let’s move Moves files beginning with uppercase letters
 16. Clean Emacs Deletes Emacs files
 17. Tree Creates File Tree
+18. Life is a series of commas, not periods lists files and directories separated by comas
