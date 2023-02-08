@@ -6,3 +6,4 @@
 5. I love numbers  Displays directory contents in long format with user and group IDs in numerics
 6. Welcome Creates a directory in tmp
 7. Betty in my first directory Moves the Betty file
+8. Bye bye Betty Deletes the file betty
