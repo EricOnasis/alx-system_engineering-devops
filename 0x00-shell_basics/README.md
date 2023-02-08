@@ -17,3 +17,4 @@
 16. Clean Emacs Deletes Emacs files
 17. Tree Creates File Tree
 18. Life is a series of commas, not periods lists files and directories separated by comas
+19. File type: School Creates magic file school
