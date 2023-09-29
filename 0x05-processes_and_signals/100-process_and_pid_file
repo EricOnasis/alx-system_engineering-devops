@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+# Y U no love me
+
+# Function to handle SIGQUIT and SIGTERM signals
+termfunc() {
+    echo "I hate the kill command"
+    rm -f /var/run/myscript.pid
+    exit 0
+}
+
+# Function to handle SIGINT signal
+intfunc() {
+    echo "Y U no love me?!"
+}
+
+# Set PID file
+echo "$$" > /var/run/myscript.pid
+
+# Trap signals
+trap 'intfunc' SIGINT
+trap 'termfunc' SIGQUIT SIGTERM
+
+while true; do
+    echo "To infinity and beyond"
+    sleep 2
+done
+
