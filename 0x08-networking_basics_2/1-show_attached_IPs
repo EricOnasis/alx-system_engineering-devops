@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#Shows all active IPv4 addresses on the host
+
+ifconfig | grep -o 'inet addr:[^ ]*' | awk -F: '{print $2}'
