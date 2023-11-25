@@ -3,7 +3,7 @@
 # Install Flask using Puppet
 
 package { 'werkzeug':
-  ensure   => '1.0.1',
+  ensure   => '2.1.1',
   provider => 'pip3',
 }
 
