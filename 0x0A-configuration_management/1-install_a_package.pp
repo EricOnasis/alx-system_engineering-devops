@@ -2,15 +2,15 @@
 
 # Install Flask using Puppet
 
-package { 'python3-pip':
-  ensure => installed,
+package { 'werkzeug':
+  ensure   => '1.0.1',  # Use a version that is compatible with Flask 2.1.0
+  provider => 'pip3',
 }
 <<<<<<< HEAD
 =======
 
-exec { 'install_flask':
-  command => '/usr/bin/pip3 install flask==2.1.0',
-  path    => '/usr/bin',
-  require => Package['python3-pip'],
+package { 'flask':
+  ensure   => '2.1.0',
+  provider => 'pip3',
 }
 >>>>>>> 480b7b0 (Fix)
