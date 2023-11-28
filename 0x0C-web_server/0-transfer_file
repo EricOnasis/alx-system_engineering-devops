@@ -1,4 +1,4 @@
-#!usr/bin/env bash
+#!/usr/bin/env bash
 # A scripts that copies a file from a client to a Server
 
 if [ "$#" -lt 4 ]; then
