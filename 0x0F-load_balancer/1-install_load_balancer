@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # configures HAproxy load balancer
 
-apt-get -y update
-apt-get -y install haproxy
+sudo apt-get -y update
+sudo apt-get -y install haproxy
 
 echo '
 frontend onasis.tech
@@ -15,4 +15,4 @@ backend web_servers
         server 269807-web-02 100.26.17.186:80
 ' >> /etc/haproxy/haproxy.cfg
 
-service haproxy restart
+sudo service haproxy restart
